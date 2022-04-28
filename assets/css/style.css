@@ -1,0 +1,469 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    letter-spacing:1px;
+}
+
+/*-----------------------------------------------Header--------------------------------------------------*/
+/* .active {
+    color: rgb(0, 0, 0);
+    background-color: rgb(147, 147, 147);
+} */
+
+.headtop{
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caja{
+    width: 5%;
+}
+
+.contenedorLogo{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.headtop__imglogo{
+    width: 70%;
+}
+
+.contenedorCarrito{
+    height: 100%;
+    width: 5%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.headtop__imgcarrito{
+    width: 50%;
+    height: auto;
+}
+
+.bgheader{
+    background-color: whitesmoke;
+}
+
+
+
+
+
+/*-------------------------------------------Barra de Navegacion------------------------------------------------*/
+
+.navcontainer{
+    background-color: rgb(203, 203, 203);
+}
+
+hr{
+    color:brown;
+    border: 20px; 
+    height: 20px;
+    text-align: center; 
+    background-image: linear-gradient(left, #fff, #000, #fff);
+}
+
+/*-------------------------------------------NEWSLETTER------------------------------------------------*/
+
+.card {
+    background-color: darkolivegreen;
+    opacity: 80%;
+    border-radius: 10px;
+    font-family: 'Manrope', sans-serif
+}
+
+.fa {
+    color: #d9d5d5
+}
+
+#inp1 {
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-size: 0.75rem
+}
+
+#inp1:focus {
+    outline: none;
+    box-shadow: none
+}
+
+/* .btn {
+    background-color: #369558;
+    font-size: 0.78rem;
+    border: 0px
+} */
+
+.btn:focus {
+    outline: none;
+    box-shadow: none
+}
+
+*:focus {
+    outline: none
+}
+
+/*----------------------------------------------------MAIN----------------------------------------------------------*/
+
+.quienessomos{
+    width: 100%;
+    height: 350px;
+    background-image: url(../img/fondoquienes\ somos_Mesa\ de\ trabajo\ 1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tituloQuienes{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quienessomos h2{
+    font-size: 1.8rem;
+}
+
+.parrafoQuienes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quienessomos p{
+    font-size: 20px;
+    margin: 10px;
+}
+
+.imgQuienes{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quienessomos a{
+    background-color: darkolivegreen;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 0;
+    margin: 20px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.quienessomos a:hover{
+    background-color: palegreen;
+    color: black;
+    transition: 1s;
+
+}
+
+/*--------------------------------------------Productos destacados------------------------------------------------*/
+
+.prodest{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.tituloProdest{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.prodest h2{
+    font-size: 2rem;
+    color: rgb(105, 128, 55);
+}
+
+/*------- Tarjeta Productos destacados----------*/
+
+.carrusel{
+    width: 100%;
+    height: auto;
+}
+
+.prodest .tarjetaprod{
+    width: 180px;
+    height: 280px;
+    background-color: rgb(196, 162, 53);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-shadow: 2px 2px 10px;
+}
+
+.tarjetaprod p{
+    font-size: 0.8rem;
+    padding: 3px;
+}
+
+.tarjetaprod h3{
+    font-size: 1rem;
+    padding: 2px;
+    margin: 1px;
+}
+
+.tarjetaprod:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.prodest .tarjetaprod .tarjetatitulo{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.prodest .tarjetaprod .imgkit{
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.btn2{
+    background-color: darkolivegreen;
+    border-radius: 10px;
+    border: 0;
+    padding: 13px;
+    cursor: pointer;
+    color: white;
+}
+
+.btn2:hover{
+    background-color: rgb(184, 214, 138);
+    color: black;
+    transition: 1s;
+}
+
+/*--------------- Envios----------------*/
+
+.enviosprod{
+    width: 100%;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.envios{
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descuentocup{
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.seguridadEnvios{
+    width: 200px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaEnvios{
+    width: 70%;
+    margin: 10px;
+}
+
+.cuponDesc{
+    width: 70%;
+    margin: 15px;
+}
+
+.verificadoSeguridad{
+    width: 50%;
+    margin: 20px;
+}
+
+.avanzar{
+    width: 6%;
+    height: 6%;
+}
+
+/*------------------------------------------------Footer------------------------------------------------------------*/
+
+.contenedorfooter{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content:flex-end;
+    background-color: rgb(105, 128, 55);
+    background: linear-gradient(0deg, rgb(93, 114, 47) 0%, rgba(34,193,195,0) 100%);
+    color: whitesmoke;
+}
+
+.imgfooter{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.imgfooter .imgfooter__logogg{
+    width: 80%;
+}
+
+.redesfooter{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.redesfooter h3{
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.imgfacebook{
+    width: 20%;
+    padding: 5px;
+}
+
+.imginstagram{
+    width: 20%;
+    padding: 5px;
+}
+
+.iconosredes{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*CONTACTO FOOTER*/
+
+.contactofooter{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.contactofooter h3{
+    font-size: 1.3rem;
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.cf{
+    font-size: .6rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.wapp{
+    width: 8%;
+    padding: 5px;
+}
+
+.email{
+    width: 8%;
+    padding: 5px;
+}
+
+.direccion{
+    width: 8%;
+    padding: 5px;
+}
+
+/*-------------------botonfoorter----------------*/
+
+.btnfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnfooter button{
+    background-color: rgb(196, 162, 53);
+    border-radius: 10px;
+    height: 50px;
+    border: 0;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.btnfooter button:hover{
+    background-color: rgb(219, 204, 152);
+    color: black;
+}
+
+/*--------Disenado Por--------*/
+
+.infodesign{
+    background-color: rgb(225, 192, 85);
+    color: black;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 75%;
+}
+
+
+
+
+
+
+/*--------PAGINA DE CONTACTOS--------*/
+
+/* .mapaubicacion{
+    box-shadow: 5px 5px 15px;
+} */
+
+.mapaubicacion:hover {
+    filter: opacity(.8);
+    transform: scale(1.01);
+    box-shadow: 5px 5px 3px;
+}
+
+.formulario{
+    background-color: rgb(196, 162, 53);
+}
